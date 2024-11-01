@@ -31,7 +31,7 @@ app.use('/api', userRouter)
 app.use('/menu',menuRouter )
 // app.use('/api' , menuRouter)
 
-const mongoURL= 'mongodb+srv://debashishmahato:manager@cluster0.v3nii6v.mongodb.net/'
+const mongoURL= 'mongodb+srv://bhagyasreesendh:manager@cluster0.8swlp.mongodb.net/'
 //const mongoURL= 'mongodb://3.88.223.173:27017/test'
 
 mongoose.connect(mongoURL,{
